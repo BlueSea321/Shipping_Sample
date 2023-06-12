@@ -1,0 +1,66 @@
+.custom_App {
+    font-family: sans-serif;
+  }
+  
+  .custom_dropdown {
+    margin: 0 auto;
+    z-index: 10000;
+    width: 100%;
+    position: relative;
+  }
+  .custom_dropdown,
+  .custom_dropdown * {
+    z-index: 10;
+  }
+  .custom_dropdown .custom_dropdown-btn {
+    cursor: pointer;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgb(235, 233, 233);
+    border: 1px solid rgb(219, 217, 217);
+    border-radius: 8px;
+    color: rgb(8, 8, 8);
+    font-weight: 500;
+  }
+  .custom_dropdown-btn {
+    background-color: #e2e6ea !important;
+  }
+  .custom_dropdown-btn:hover {
+    background-color: #e2e6ea;
+  }
+  .custom_dropdown-content {
+    position: absolute;
+    /* top: 110%; */
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.07);
+  }
+  .custom_dropdown-content .custom_item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  .custom_dropdown-content .custom_item:hover {
+    background: #fcfcfc;
+  }
+  
+  .custom_button {
+    z-index: -1;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  input[type=number]:hover::-webkit-inner-spin-button {
+    -webkit-appearance: textfield;
+  }
+  
